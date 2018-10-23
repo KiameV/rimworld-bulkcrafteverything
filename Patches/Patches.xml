@@ -62,4 +62,13 @@
 			<li>Make_ChemfuelFromOrganicsBulk</li>
 		</value>
 	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/ThingDef[defName = "TableMachining"]/recipes</xpath>
+		<value>
+			<li>BulkShell_HighExplosive</li>
+			<li>BulkShell_Incendiary</li>
+			<li>BulkShell_EMP</li>
+			<li>BulkShell_Firefoam</li>
+		</value>
+	</Operation>
 </Patch>
