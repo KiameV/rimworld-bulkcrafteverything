@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-    <name>[KV] Bulk Craft Everything [1.0]</name>
+    <name>[KV] Bulk Craft Everything - 1.0</name>
     <author>Joseph (original) &amp; Kiame Vivacity</author>
 	<targetVersion>1.0.0</targetVersion>
-    <description>
-    	Make sutff in bulk!
-    </description>
+    <description>Make sutff in bulk!</description>
 </ModMetaData>
