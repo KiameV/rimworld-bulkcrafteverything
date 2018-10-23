@@ -3,5 +3,28 @@
     <name>[KV] Bulk Craft Everything - 1.0</name>
     <author>Joseph (original) &amp; Kiame Vivacity</author>
 	<targetVersion>1.0.0</targetVersion>
-    <description>Make sutff in bulk!</description>
+    <description>
+Create items in bulk:
+
+Meals:
+-Simple x10
+-Fine x10
+-Lavish x10
+-Survival Meals x10
+
+Foods:
+-Kibble x500
+-Pemmican x160
+
+Production:
+-Stone Blocks x3
+-Slag x3
+-Chemfuels x350
+-Component x5, x10, x25
+-Adv. Component x5, x10, x25
+-Patch Leather x5, x10
+
+Cremation:
+-Corpses x3
+    </description>
 </ModMetaData>

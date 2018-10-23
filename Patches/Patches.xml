@@ -55,4 +55,11 @@
 			<li>CremateCorpseBulk</li>
 		</value>
 	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/ThingDef[defName = "BiofuelRefinery"]/recipes</xpath>
+		<value>
+			<li>Make_ChemfuelFromWoodBulk</li>
+			<li>Make_ChemfuelFromOrganicsBulk</li>
+		</value>
+	</Operation>
 </Patch>
