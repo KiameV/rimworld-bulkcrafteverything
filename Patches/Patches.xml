@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/ThingDef[defName = "ElectricStove"]/recipes</xpath>
+		<value>
+			<li>CookMealSimpleBulk</li>
+			<li>CookMealFineBulk</li>
+			<li>CookMealLavishBulk</li>
+			<li>CookMealSurvivalBulk</li>
+			<li>Make_Pemmican_Bulk</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/ThingDef[defName = "FueledStove"]/recipes</xpath>
+		<value>
+			<li>CookMealSimpleBulk</li>
+			<li>CookMealFineBulk</li>
+			<li>CookMealLavishBulk</li>
+			<li>CookMealSurvivalBulk</li>
+			<li>Make_Pemmican_Bulk</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/ThingDef[defName = "ButcherSpot"]/recipes</xpath>
+		<value>
+			<li>Make_Kibble_Bulk</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/ThingDef[defName = "TableButcher"]/recipes</xpath>
+		<value>
+			<li>Make_Kibble_Bulk</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/ThingDef[defName = "FabricationBench"]/recipes</xpath>
+		<value>
+			<li>Make_ComponentIndustrial_5</li>
+			<li>Make_ComponentIndustrial_10</li>
+			<li>Make_ComponentIndustrial_25</li>
+			<li>Make_ComponentSpacer_5</li>
+			<li>Make_ComponentSpacer_10</li>
+			<li>Make_ComponentSpacer_25</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/ThingDef[defName = "ElectricSmelter"]/recipes</xpath>
+		<value>
+			<li>ExtractMetalFromSlagBulk</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/ThingDef[defName = "ElectricCrematorium"]/recipes</xpath>
+		<value>
+			<li>CremateCorpseBulk</li>
+		</value>
+	</Operation>
+</Patch>

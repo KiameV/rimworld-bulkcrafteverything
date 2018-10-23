@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <RecipeDef>
+    <defName>MakeMedicineIndustrialBulk</defName>
+    <label>make medicine bulk</label>
+    <description>Make medicine in bulk.</description>
+    <jobString>Making medicine.</jobString>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <workAmount>6500</workAmount>
+    <unfinishedThingDef>UnfinishedMedicine</unfinishedThingDef>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MedicineHerbal</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Neutroamine</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Cloth</li>
+          </thingDefs>
+        </filter>
+        <count>30</count>
+      </li>
+    </ingredients>
+    <products>
+      <MedicineIndustrial>10</MedicineIndustrial>
+    </products>
+    <skillRequirements>
+        <Crafting>6</Crafting>
+        <Intellectual>4</Intellectual>
+    </skillRequirements>
+      <recipeUsers>
+        <li>DrugLab</li>
+      </recipeUsers>
+      <researchPrerequisite>MedicineProduction</researchPrerequisite>
+    <workSkill>Medicine</workSkill>
+  </RecipeDef>
+
+  <!--<RecipeDef>
+    <defName>MakeMedicineUltratechBulk</defName>
+    <label>make glitterworld medicine in bulk</label>
+    <description>Make Advanced medical supplies just like the stuff from high-tech glitterworlds.</description>
+    <jobString>Making medicine.</jobString>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <workAmount>8200</workAmount>
+    <unfinishedThingDef>UnfinishedMedicine</unfinishedThingDef>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Medicine</li>
+          </thingDefs>
+        </filter>
+        <count>20</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Component</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>DevilstrandCloth</li>
+          </thingDefs>
+        </filter>
+        <count>60</count>
+      </li>
+    </ingredients>
+    <products>
+      <MedicineUltratech>10</MedicineUltratech>
+    </products>
+    <skillRequirements>
+        <Crafting>10</Crafting>
+        <Intellectual>6</Intellectual>
+    </skillRequirements>
+      <recipeUsers>
+        <li>DrugLab</li>
+      </recipeUsers>
+      <researchPrerequisite>MedicineProduction</researchPrerequisite>
+    <workSkill>Medicine</workSkill>
+  </RecipeDef>
+
+  
+<RecipeDef>
+    <defName>MakeNeutroamine</defName>
+    <label>make neutroamine</label>
+    <description>Make neutroamine.</description>
+    <jobString>Making neutroamine.</jobString>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <workAmount>300</workAmount>
+    <unfinishedThingDef>UnfinishedDrugs</unfinishedThingDef>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MedicineHerbal</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Chemfuel</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+      <Neutroamine>1</Neutroamine>
+    </products>
+    <workSkill>Intellectual</workSkill>
+      <recipeUsers>
+        <li>DrugLab</li>
+      </recipeUsers>
+  </RecipeDef>
+
+<RecipeDef>
+    <defName>MakeBulkNeutroamine</defName>
+    <label>make bulk neutroamine</label>
+    <description>Make neutroamine in bulk.</description>
+    <jobString>Making neutroamine.</jobString>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <workAmount>2800</workAmount>
+    <unfinishedThingDef>UnfinishedDrugs</unfinishedThingDef>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MedicineHerbal</li>
+          </thingDefs>
+        </filter>
+        <count>20</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Chemfuel</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+    </ingredients>
+    <products>
+      <Neutroamine>10</Neutroamine>
+    </products>
+    <workSkill>Intellectual</workSkill>
+      <recipeUsers>
+        <li>DrugLab</li>
+      </recipeUsers>
+  </RecipeDef>-->
+
+   
+<RecipeDef>
+    <defName>MakeBulkGoJuice</defName>
+    <label>make go-juice bulk</label>
+    <description>Make go-juice in bulk.</description>
+    <jobString>Making go-juice.</jobString>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <workAmount>5000</workAmount>
+    <unfinishedThingDef>UnfinishedDrugs</unfinishedThingDef>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Neutroamine</li>
+          </thingDefs>
+        </filter>
+        <count>20</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Yayo</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+    </ingredients>
+    <products>
+      <GoJuice>10</GoJuice>
+    </products>
+    <workSkill>Intellectual</workSkill>
+      <recipeUsers>
+        <li>DrugLab</li>
+      </recipeUsers>
+      <researchPrerequisite>GoJuiceProduction</researchPrerequisite>
+  </RecipeDef>
+
+<RecipeDef>
+    <defName>MakeBulkPenoxycyline</defName>
+    <label>make penoxycyline bulk</label>
+    <description>Make penoxycylinein bulk.</description>
+    <jobString>Making penoxycyline.</jobString>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <workAmount>4800</workAmount>
+    <unfinishedThingDef>UnfinishedDrugs</unfinishedThingDef>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Neutroamine</li>
+          </thingDefs>
+        </filter>
+        <count>20</count>
+      </li>
+    </ingredients>
+    <products>
+      <Penoxycyline>10</Penoxycyline>
+    </products>
+    <workSkill>Intellectual</workSkill>
+      <recipeUsers>
+        <li>DrugLab</li>
+      </recipeUsers>
+      <researchPrerequisite>PenoxycylineProduction</researchPrerequisite>
+  </RecipeDef>
+
+<RecipeDef>
+    <defName>MakeBulkFlake</defName>
+    <label>make flake bulk</label>
+    <description>Make flake in bulk.</description>
+    <jobString>Making flake.</jobString>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <workAmount>4800</workAmount>
+    <unfinishedThingDef>UnfinishedDrugs</unfinishedThingDef>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>PsychoidLeaves</li>
+          </thingDefs>
+        </filter>
+        <count>40</count>
+      </li>
+    </ingredients>
+    <products>
+      <Flake>10</Flake>
+    </products>
+    <workSkill>Intellectual</workSkill>
+      <recipeUsers>
+        <li>DrugLab</li>
+      </recipeUsers>
+      <researchPrerequisite>PsychiteRefining</researchPrerequisite>
+  </RecipeDef>
+
+<!--
+<RecipeDef>
+    <defName>MakeBulkPsychiteTea</defName>
+    <label>make psychite tea bulk</label>
+    <description>Make psychoid tea in bulk.</description>
+    <jobString>Making psychoid tea.</jobString>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <workAmount>3800</workAmount>
+    <unfinishedThingDef>UnfinishedDrugs</unfinishedThingDef>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>PsychoidLeaves</li>
+          </thingDefs>
+        </filter>
+        <count>40</count>
+      </li>
+    </ingredients>
+    <products>
+      <PsychiteTea>10</PsychiteTea>
+    </products>
+      <skillRequirements>
+        <Cooking>4</Cooking>
+      </skillRequirements>
+      <workSkill>Cooking</workSkill>
+      <recipeUsers>
+        <li>Campfire</li>
+        <li>ElectricStove</li>
+        <li>FueledStove</li>
+      </recipeUsers>
+      <researchPrerequisite>PsychoidBrewing</researchPrerequisite>
+  </RecipeDef>-->
+
+
+<RecipeDef>
+    <defName>MakeBulkPsychoidYayo</defName>
+    <label>make yayo bulk</label>
+    <description>Make yayo in bulk.</description>
+    <jobString>Making yayo.</jobString>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <workAmount>5800</workAmount>
+    <unfinishedThingDef>UnfinishedDrugs</unfinishedThingDef>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>PsychoidLeaves</li>
+          </thingDefs>
+        </filter>
+        <count>80</count>
+      </li>
+    </ingredients>
+    <products>
+      <Yayo>10</Yayo>
+    </products>
+    <workSkill>Intellectual</workSkill>
+      <recipeUsers>
+        <li>DrugLab</li>
+      </recipeUsers>
+      <researchPrerequisite>PsychiteRefining</researchPrerequisite>
+  </RecipeDef>
+
+
+<RecipeDef>
+    <defName>MakeBulkSmokeleafJoint</defName>
+    <label>make smokeleaf joints bulk</label>
+    <description>Make smokeleaf joints in bulk.</description>
+    <jobString>Making smokeleaf joints.</jobString>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <workAmount>4200</workAmount>
+    <unfinishedThingDef>UnfinishedJoints</unfinishedThingDef>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>SmokeleafLeaves</li>
+          </thingDefs>
+        </filter>
+        <count>40</count>
+      </li>
+    </ingredients>
+    <products>
+      <SmokeleafJoint>10</SmokeleafJoint>
+    </products>
+    <workSkill>Crafting</workSkill>
+      <recipeUsers>
+        <li>CraftingSpot</li>
+        <li>DrugLab</li>
+      </recipeUsers>
+  </RecipeDef>
+
+
+<RecipeDef>
+    <defName>MakeBulkPsychoidWakeUp</defName>
+    <label>make wake-up bulk</label>
+    <description>Make wake-up in bulk.</description>
+    <jobString>Making wake-up.</jobString>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <workAmount>8700</workAmount>
+    <unfinishedThingDef>UnfinishedDrugs</unfinishedThingDef>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Neutroamine</li>
+          </thingDefs>
+        </filter>
+        <count>20</count>
+      </li>
+    </ingredients>
+    <products>
+      <WakeUp>10</WakeUp>
+    </products>
+    <workSkill>Intellectual</workSkill>
+      <recipeUsers>
+        <li>DrugLab</li>
+      </recipeUsers>
+      <researchPrerequisite>WakeUpProduction</researchPrerequisite>
+  </RecipeDef>
+
+<RecipeDef>
+    <defName>Make_WortBulk</defName>
+    <label>make wort bulk</label>
+    <description>Make wort in bulk.</description>
+    <jobString>Making wort.</jobString>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <workAmount>2800</workAmount>
+    <unfinishedThingDef>UnfinishedDrugs</unfinishedThingDef>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RawHops</li>
+          </thingDefs>
+        </filter>
+        <count>75</count>
+      </li>
+    </ingredients>
+    <products>
+      <Wort>15</Wort>
+    </products>
+    <workSkill>Cooking</workSkill>
+      <recipeUsers>
+        <li>Brewery</li>
+      </recipeUsers>
+  </RecipeDef>
+
+</Defs>
